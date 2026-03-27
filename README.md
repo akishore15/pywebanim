@@ -11,6 +11,7 @@ Embed Manim animations into HTML effortlessly.
 
 ```bash
 pip install pywebanim
+```
 ## 🚀 Usage
 ```bash
 pywebanim scene.py MyScene
