@@ -20,6 +20,7 @@ pywebanim scene.py MyScene
 from pywebanim import render_to_html
 
 render_to_html("scene.py", "MyScene")
+
 ```
 ## 📄 License
 
