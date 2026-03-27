@@ -1,0 +1,13 @@
+[project]
+name = "pywebanim"
+version = "0.1.0"
+description = "Embed Manim animations into HTML easily"
+authors = [{name = "Some Person"}]
+dependencies = ["manim"]
+
+[project.scripts]
+pywebanim = "pywebanim.cli:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
