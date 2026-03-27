@@ -1,9 +1,15 @@
+
 [project]
 name = "pywebanim"
 version = "0.1.0"
-description = "Embed Manim animations into HTML easily"
-authors = [{name = "Some Person"}]
+description = "Embed Manim animations into HTML"
+readme = "README.md"
+license = { text = "GPL-3.0-only" }
+authors = [{ name = "Some Person" }]
 dependencies = ["manim"]
+
+[project.urls]
+Homepage = "https://github.com/akishore15/pywebanim"
 
 [project.scripts]
 pywebanim = "pywebanim.cli:main"
