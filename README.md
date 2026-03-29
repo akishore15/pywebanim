@@ -10,9 +10,10 @@ Embed Manim animations into HTML effortlessly.
 ## 📦 Installation
 
 ```bash
-pip install pywebanim
+git clone github.com/akishore15/pywebanim.git
 ```
 ## 🚀 Usage
+Note: You will need to be writing this code in the **pywebanim** directory created on your computer after installation.
 ```bash
 pywebanim scene.py MyScene
 ```
